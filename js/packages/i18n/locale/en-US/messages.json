@@ -1,11 +1,12 @@
 {
 	"onboarding": {
 		"getstarted": {
-			"screenTitle": "Protect your privacy",
-			"title": "Protect your privacy",
-			"desc": "free & secure peer-to-peer messaging",
-			"create-button": "Create an account",
-			"import-button": "Import an account"
+			"screenTitle": "Welcome, frens",
+			"header": "frens",
+			"title": "Welcome, frens",
+			"desc": "shared tokens, shared interests",
+			"create-button": "Create account",
+			"import-button": "Import account"
 		},
 		"default-mode": {
 			"summary": {

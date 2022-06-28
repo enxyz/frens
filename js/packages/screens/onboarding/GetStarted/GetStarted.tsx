@@ -25,9 +25,22 @@ export const GetStarted: ScreenFC<'Onboarding.GetStarted'> = () => {
 			]}
 		>
 			<StatusBar backgroundColor={colors['main-background']} barStyle='dark-content' />
-			<View style={[margin.bottom.big, { flexDirection: 'row', justifyContent: 'center' }]}>
+			{/* <View>
 				<Logo />
-			</View>
+			</View> */}
+			<View style={[margin.bottom.big, { flexDirection: 'row', justifyContent: 'center' }]}>
+					<UnifiedText
+						style={[
+							padding.horizontal.medium,
+							text.align.center,
+							text.size.huge,
+							text.bold,
+							{ color: colors['background-header'], textTransform: 'uppercase' },
+						]}
+					>
+						{t('onboarding.getstarted.header')}
+					</UnifiedText>
+				</View>
 			<View>
 				<View>
 					<UnifiedText
@@ -36,7 +49,7 @@ export const GetStarted: ScreenFC<'Onboarding.GetStarted'> = () => {
 							text.align.center,
 							text.size.large,
 							text.bold,
-							{ color: colors['background-header'], textTransform: 'uppercase' },
+							{ color: colors['background-header'], textTransform: 'none' },
 						]}
 					>
 						{t('onboarding.getstarted.title')}
